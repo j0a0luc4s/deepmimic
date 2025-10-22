@@ -1,0 +1,21 @@
+[project]
+name = "deepmimic"
+version = "0.1.0"
+description = ""
+authors = [
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "mujoco (>=3.3.7,<4.0.0)",
+    "robot-descriptions (>=1.21.0,<2.0.0)",
+    "stable-baselines3 (>=2.7.0,<3.0.0)",
+    "tensorboard (>=2.20.0,<3.0.0)",
+    "scipy (>=1.16.2,<2.0.0)",
+    "numpy-quaternion (>=2024.0.12,<2025.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
