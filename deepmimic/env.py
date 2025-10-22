@@ -365,7 +365,7 @@ class T1Env(utils.EzPickle, MujocoEnv):
             low=-0.01, high=0.01, size=self.model.nq
         )
         qvel = self.ref_qvels[self.init_ref_idx] + self.np_random.uniform(
-            low=-0.01, high=0.01, size=self.model.nq
+            low=-0.01, high=0.01, size=self.model.nv
         )
 
         self.set_state(qpos, qvel)
