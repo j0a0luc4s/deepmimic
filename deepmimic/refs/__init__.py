@@ -34,8 +34,8 @@ def load_ref(ref_name: str):
 
         ref["qposs"] = np.array(ref_raw["qposs"])
         ref["qvels"] = np.array(ref_raw["qvels"])
-        ref["subtree_coms"] = np.array(ref_raw["subtree_coms"])
-        ref["xquats"] = np.array(ref_raw["xquats"])
-        ref["cvels"] = np.array(ref_raw["cvels"])
+        ref["xiposs"] = np.array(ref_raw["xiposs"])
+        ref["xmats"] = np.array(ref_raw["xmats"])
+        ref["coms"] = np.array(ref_raw["coms"])
 
     return ref
